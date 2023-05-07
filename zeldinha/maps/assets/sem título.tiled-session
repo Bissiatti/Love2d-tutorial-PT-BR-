@@ -1,0 +1,96 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "#terrain_atlas": {
+            "scaleInDock": 1
+        },
+        "map.tmx": {
+            "expandedObjectLayers": [
+                5,
+                4
+            ],
+            "scale": 0.5,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 437,
+                "y": 387
+            }
+        },
+        "map.tmx#base_out_atlas": {
+            "scaleInDock": 1
+        },
+        "map.tmx#terrain_atlas": {
+            "scaleInDock": 1.5
+        },
+        "map0.tmx": {
+            "expandedObjectLayers": [
+                4,
+                3
+            ],
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 369,
+                "y": 321.5
+            }
+        },
+        "map0.tmx#terrain_atlas": {
+            "scaleInDock": 1
+        },
+        "mapRPG.tmx": {
+            "expandedObjectLayers": [
+                5,
+                6
+            ],
+            "scale": 1,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 410.5,
+                "y": 378.5
+            }
+        },
+        "mapRPG.tmx#terrain_atlas": {
+            "scaleInDock": 1
+        },
+        "terrain_atlas.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/emanu/OneDrive/Documentos/altair/zeldinha/maps/assets",
+    "last.imagePath": "C:/Users/emanu/OneDrive/Documentos/altair/zeldinha/maps/assets",
+    "map.height": 20,
+    "map.lastUsedExportFilter": "Arquivos Lua (*.lua)",
+    "map.lastUsedFormat": "tmx",
+    "map.renderOrder": null,
+    "map.tileHeight": 32,
+    "map.tileWidth": 32,
+    "map.width": 30,
+    "openFiles": [
+        "map.tmx",
+        "mapRPG.tmx",
+        "map0.tmx"
+    ],
+    "project": "sem título.tiled-project",
+    "recentFiles": [
+        "map.tmx",
+        "mapRPG.tmx",
+        "map0.tmx",
+        "terrain_atlas.tsx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    }
+}
