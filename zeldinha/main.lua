@@ -13,8 +13,6 @@ function love.load()
         end
     end
 
-    
-
     local px,py = 100,100
     if rpgMap.map.layers['player'] then
         for i,obj in ipairs(rpgMap.map.layers['player'].objects) do

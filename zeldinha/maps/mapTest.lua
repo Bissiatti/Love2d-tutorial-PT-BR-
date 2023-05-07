@@ -9,10 +9,10 @@ function rpgMap:update(dt)
     rpgMap.map:update(dt)
 end
 
-function rpgMap:draw()
+function rpgMap:drawDown()
     rpgMap.map:drawLayer(rpgMap.map.layers['floor'])
 end
 
-function rpgMap:Tree()
+function rpgMap:drawnUp()
     rpgMap.map:drawLayer(rpgMap.map.layers['tree'])
 end
