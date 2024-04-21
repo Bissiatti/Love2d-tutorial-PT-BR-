@@ -5,12 +5,50 @@
     },
     "activeFile": "",
     "expandedProjectPaths": [
+        "."
     ],
     "fileStates": {
         "": {
             "scaleInDock": 1
         },
         "#terrain_atlas": {
+            "scaleInDock": 1
+        },
+        "C:/Users/emanu/AppData/Roaming/itch/apps/kenney-game-assets/2D assets/Tiny Dungeon/Tiled/sampleMap.tmx": {
+            "scale": 1.521484375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 255.99999999999997,
+                "y": 160.04107830551987
+            }
+        },
+        "C:/Users/emanu/AppData/Roaming/itch/apps/kenney-game-assets/2D assets/Tiny Dungeon/Tiled/sampleSheet.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/emanu/Downloads/mapa.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1254.375,
+                "y": 603.375
+            }
+        },
+        "C:/Users/emanu/Downloads/mapa.tmx#CASAPALCOLAGO": {
+            "scaleInDock": 1
+        },
+        "C:/Users/emanu/Downloads/mapa.tmx#mapinha": {
+            "scaleInDock": 1
+        },
+        "C:/Users/emanu/Downloads/mapa.tmx#mapinha3": {
+            "scaleInDock": 1
+        },
+        "C:/Users/emanu/Downloads/mapa.tmx#mapinha4": {
+            "scaleInDock": 1
+        },
+        "C:/Users/emanu/Downloads/mapa.tmx#mapinha5": {
+            "scaleInDock": 1
+        },
+        "C:/Users/emanu/Downloads/mapa.tmx#mapinha_2": {
             "scaleInDock": 1
         },
         "map.tmx": {
@@ -36,11 +74,11 @@
                 4,
                 3
             ],
-            "scale": 1,
-            "selectedLayer": 2,
+            "scale": 4,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 369,
-                "y": 321.5
+                "x": 479.875,
+                "y": 319.875
             }
         },
         "map0.tmx#terrain_atlas": {
@@ -54,8 +92,8 @@
             "scale": 1,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 410.5,
-                "y": 378.5
+                "x": 157.5,
+                "y": 319.5
             }
         },
         "mapRPG.tmx#terrain_atlas": {
@@ -76,15 +114,14 @@
     "map.tileWidth": 32,
     "map.width": 30,
     "openFiles": [
-        "map.tmx",
-        "mapRPG.tmx",
-        "map0.tmx"
     ],
     "project": "sem título.tiled-project",
     "recentFiles": [
-        "map.tmx",
         "mapRPG.tmx",
         "map0.tmx",
+        "C:/Users/emanu/Downloads/mapa.tmx",
+        "C:/Users/emanu/AppData/Roaming/itch/apps/kenney-game-assets/2D assets/Tiny Dungeon/Tiled/sampleMap.tmx",
+        "map.tmx",
         "terrain_atlas.tsx"
     ],
     "tileset.embedInMap": true,

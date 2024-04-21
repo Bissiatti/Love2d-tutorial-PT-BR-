@@ -1,6 +1,7 @@
 require("maps.mapTest")
 require("player")
 local wf = require('libs.windfield')
+local e = {}
 
 function love.load()
     World = wf.newWorld(0,0,true)
@@ -21,6 +22,18 @@ function love.load()
         end
     end
 
+
+    if rpgMap.map.layers['spawn'] then
+        for i,obj in ipairs(rpgMap.map.layers['spawn'].objects) do
+            for i = 1,10 do
+                local x = math.random(obj.x,obj.x+obj.width)
+                local y = math.random(obj.y,obj.y+obj.height)
+                table.insert(e,{x = x,y = y,colider = World:newRectangleCollider(x,y,10,10,{collision_class = 'Enemy'})})
+            end
+            break
+        end
+    end
+
     Player:load(px,py,World)
 end
 
@@ -36,4 +49,7 @@ function love.draw()
     World:draw()
     Player:draw()
     rpgMap:drawnUp()
+    for i,enemy in ipairs(e) do
+        love.graphics.rectangle('fill',enemy.x,enemy.y,10,10)
+    end
 end
